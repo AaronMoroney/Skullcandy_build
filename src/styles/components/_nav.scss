@@ -1,0 +1,47 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.home__nav {
+    width: 15vw;
+    height: 150vh;
+    background-color: $neutral-dark;
+    color: $white;
+    @include column;
+    justify-content: space-between;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.li {
+    font-family:  Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    font-size:17.5px;
+    color:$white;
+}
+
+.li:hover {
+    color: $magenta;
+}
+
+nav {
+    background-color: $neutral-dark;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 15vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo__container {
+    width: 30vw;
+}

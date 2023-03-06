@@ -1,0 +1,31 @@
+@import './variables';
+
+
+@mixin standardize__css {
+    margin: 50px;
+}
+
+.standardize {
+    @include standardize__css;
+}
+
+
+
+
+
+
+//alignment
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin row {
+    display: flex;
+    flex-direction: row;
+}

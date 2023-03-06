@@ -1,0 +1,12 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.home {
+    margin: 0;
+    background-color: $primary-1;
+    display: flex;
+    padding-left: 50px;
+    height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
